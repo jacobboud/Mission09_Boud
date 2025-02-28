@@ -1,7 +1,9 @@
 import './App.css';
 
+//import json file
 import bballTeams from './CollegeBasketballTeams.json';
 
+//Welcome Message
 function Welcome() {
   return (
     <h1>
@@ -11,6 +13,7 @@ function Welcome() {
   );
 }
 
+//Team Structure
 function Team({
   school,
   name,
@@ -34,6 +37,7 @@ function Team({
   );
 }
 
+//Print out all teams (must use .teams to get into json structure)
 function TeamList() {
   return (
     <>
